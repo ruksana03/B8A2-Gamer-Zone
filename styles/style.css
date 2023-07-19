@@ -28,11 +28,9 @@
 
 .title {
     display: flex;
-    gap: 20px;
-    font-size: 2.8rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
+    gap: 10px;
+    font-size: 1.9rem;
+    font-weight: 700; 
     align-items: center;
 }
 
@@ -53,12 +51,12 @@ header {
 /* ..........nav styles start ........... */
 
 
-.nev-title img {
-    width: 86.041px;
-    height: 40px;
+.title img {
+    width: 50px;
+    height: 30px;
 }
 
-.nev-title span {
+.nav-title span {
     color: rgba(255, 66, 165, 1);
 }
 
@@ -67,11 +65,11 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    height: 120px;
+    height: 50px;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     margin-bottom: 30px;
-    padding: 10px 240px;
+    padding: 10px 100px;
 
 }
 
@@ -84,7 +82,7 @@ nav li {
     list-style: none;
     margin-right: 30px;
     font-weight: 500;
-    font-size: 1rem;
+    /* font-size: .5rem; */
 }
 
 nav li a {
@@ -93,7 +91,7 @@ nav li a {
     color: #3C354F;
     text-align: center;
     font-family: Work Sans;
-    font-size: 1.5rem;
+    font-size: .9rem;
     font-style: normal;
     font-weight: 500;
     line-height: normal;
@@ -108,36 +106,56 @@ nav li button {
     /* text-align: center; */
     padding: 10px;
     color: #3C354F;
-    font-size: 1.5rem;
-    font-style: normal;
+    /* font-size: .9rem; */
     font-weight: 500;
-    line-height: normal;
     border: none;
 
+}
+nav li button p{
+    padding-top: 5px;
+    margin: 0;
+    text-align: center;
 }
 
 /* ..........nav styles end ............. */
 
 /* banner styles start  */
 .banner {
+    /* max-width: 800px; */
     background: #FFF;
     display: flex;
-    gap: 0;
+    gap: 10;
+    /* width: 100%; */
     justify-content: space-between;
     /* text-align: center; */
-    background-image: url(../images/Group\ 14.png);
+    /* background-image: url(../images/Group\ 14.png); */
+    /* padding: 10px 240px; */
+    margin: 0;
 
 }
 
 .banner-img {
-    padding-right: 240px;
-    padding-left: 175px;
+    /* padding-right: 240px;
+    padding-left: 175px; */
     background-color: white;
+    /* width: 50%; */
+    margin: 0;
+    padding:0px 80px;
+}
+
+.banner-img img{
+    width: 300px;
 }
 
 
 .banner-description {
-    padding: 100px 240px;
+    padding: 100px 120px;
+    background-image: url(../images/Group\ 14.png);
+    background-size: cover; /* Set the background image size to cover the container */
+  /* Additional styles for the container */
+  width: 400px;
+  height: 200px;
+  border: 1px solid #ccc;
 }
 
 .banner-description h2 {
@@ -207,10 +225,10 @@ nav li button {
 /* know More section styles start */
 .know-more {
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
-    padding: 55px 240px;
+    /* padding: 55px 240px; */
     display: flex;
     text-align: right;
-    gap: 60px;
+    /* gap: 60px; */
 
 }
 
@@ -276,11 +294,30 @@ nav li button {
 .online-game-img {
     display: flex;
     justify-content: space-around;
-    padding: 40px 240px;
+    /* padding: 40px 240px; */
 }
 
 .card {
     text-align: left;
+}
+.watch-now{
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+  display: none;
+    color: #0B0223;
+}
+.card:hover .watch-now {
+    display: block;
+    position: relative;
+    bottom: 50%;
+    left: 50%;
+    color: #ebe6fa;
+    
+}
+.watch-now img{
+    width: 48px;
+    height: 48px;
 }
 
 /* online game section styles end  */
@@ -290,13 +327,13 @@ nav li button {
 .instant-play {
     display: flex;
     justify-content: space-around;
-    padding: 0px 240px;
-    margin: 50px 0px 150px;
+    /* padding: 0px 240px;*/
+    margin: 50px 0px 150px; 
 }
 
 .instant-play-description {
     padding-top: 200px;
-    margin: 0 50px;
+    margin: 50px 0;
 
 }
 
@@ -333,8 +370,8 @@ nav li button {
    
         display: flex;
         justify-content: space-around;
-        padding: 0px 240px;
-        margin: 100px 0px 150px;
+        /* padding: 0px 240px; */
+        /* margin: 100px 0px 150px; */
         /* max-width: 1000px; */
 }
 .img4{
@@ -347,7 +384,35 @@ nav li button {
 
 
 /* play game section styles end  */
+/* careers section style start  */
 
+.careers{
+    display: flex;
+   
+    background-color: #FF42A5;
+    color: #FFF;
+}
+
+.career-left{
+    width: 50%;
+}
+.career-right{
+    width: 50%;
+}
+.career-right img{
+    width: 668px;
+}
+.career-button button{
+    padding: 10px;
+    border-radius: 20px;
+    color: #FF42A5;
+    border: none;
+}
+.career-options{
+    display: flex;
+    justify-content: space-around;
+}
+/* careers section style end  */
 
 
 
