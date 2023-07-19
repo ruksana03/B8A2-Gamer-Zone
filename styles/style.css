@@ -1,0 +1,360 @@
+/*Web site font "work sans" from google font*/
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Work+Sans:wght@500;600;700;800&display=swap');
+
+/* ..............shared styles start...........  */
+
+* {
+    font-family: 'Work Sans', sans-serif;
+}
+
+.linearGradient-text {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.button-all {
+    text-align: center;
+    border-radius: 48px;
+    color: #FFF;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    border: none;
+}
+
+.title {
+    display: flex;
+    gap: 20px;
+    font-size: 2.8rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    align-items: center;
+}
+
+.common-text-class {
+    color: #534C64;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+/* ............shared styles end.............  */
+
+
+header {
+    background: #FFF;
+    /* padding: 10px 240px; */
+}
+
+/* ..........nav styles start ........... */
+
+
+.nev-title img {
+    width: 86.041px;
+    height: 40px;
+}
+
+.nev-title span {
+    color: rgba(255, 66, 165, 1);
+}
+
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 120px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+    margin-bottom: 30px;
+    padding: 10px 240px;
+
+}
+
+nav>ul {
+    display: flex;
+    align-items: center;
+}
+
+nav li {
+    list-style: none;
+    margin-right: 30px;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    /* color: #424242; */
+    color: #3C354F;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+nav li button {
+    display: flex;
+    /* justify-content: space-around; */
+    gap: 10px;
+    border-radius: 10px;
+    background: rgba(15, 15, 15, 0.1);
+    /* text-align: center; */
+    padding: 10px;
+    color: #3C354F;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    border: none;
+
+}
+
+/* ..........nav styles end ............. */
+
+/* banner styles start  */
+.banner {
+    background: #FFF;
+    display: flex;
+    gap: 0;
+    justify-content: space-between;
+    /* text-align: center; */
+    background-image: url(../images/Group\ 14.png);
+
+}
+
+.banner-img {
+    padding-right: 240px;
+    padding-left: 175px;
+    background-color: white;
+}
+
+
+.banner-description {
+    padding: 100px 240px;
+}
+
+.banner-description h2 {
+    color: #0B0223;
+    text-align: center;
+    font-size: 3rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.banner-description h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    margin: 10px 0px;
+}
+
+.banner-description ul {
+    padding-left: 0;
+
+}
+
+
+.banner-description ul li {
+    display: flex;
+    text-decoration: none;
+    gap: 10px;
+    margin: 30px 0px 0px 0px;
+    color: #534C64;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    text-transform: lowercase;
+}
+
+.banner-description ul li p {
+    margin: 0px;
+}
+
+.banner-description ul li img {
+    width: 24px;
+    height: 24px;
+    text-align: center;
+}
+
+
+.banner-btn {
+    margin-top: 40px;
+}
+
+.btn-pink {
+    background: rgba(255, 66, 165, 1);
+    padding: 10px 40px;
+    /* margin-top: 20px; */
+}
+
+.btn-skyblue {
+    background-color: rgba(78, 197, 247, 1);
+    padding: 10px 40px;
+}
+
+/* banner styles end  */
+
+/* know More section styles start */
+.know-more {
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+    padding: 55px 240px;
+    display: flex;
+    text-align: right;
+    gap: 60px;
+
+}
+
+.know-more-description h2 {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    font-size: 3rem;
+    font-weight: 700;
+}
+
+.know-more-description p {
+    color: #534C64;
+
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+    /* 166.667% */
+}
+
+.know-more-description h5 {
+    color: #534C64;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 500;
+    /*line-height: 45px; 187.5% */
+    margin-top: 24px;
+    margin-bottom: 0px;
+}
+
+.know-more-description h3 {
+    color: #534C64;
+    font-size: 2rem;
+    font-weight: 700;
+    /* line-height: 45px; */
+    margin-top: 0px;
+}
+
+/* know More section styles end */
+
+/* online game section styles start  */
+.online-game-description {
+    text-align: center;
+}
+
+.online-game-description h2 {
+    color: #0B0223;
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+.online-game-description span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.online-game-img {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 240px;
+}
+
+.card {
+    text-align: left;
+}
+
+/* online game section styles end  */
+
+/* instant play section styles start  */
+
+.instant-play {
+    display: flex;
+    justify-content: space-around;
+    padding: 0px 240px;
+    margin: 50px 0px 150px;
+}
+
+.instant-play-description {
+    padding-top: 200px;
+    margin: 0 50px;
+
+}
+
+.instant-play-description h2 {
+    text-align: right;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height: 60px;
+}
+
+.instant-play-description h2 span {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.instant-play-description p {
+    text-align: right;
+}
+
+.img1 {
+
+    border-radius: 8px;
+    position: relative;
+    top: 100px; 
+    left:200px;
+}
+/* instant play section styles end  */
+
+/* play game section styles start  */
+
+.play-game{
+   
+        display: flex;
+        justify-content: space-around;
+        padding: 0px 240px;
+        margin: 100px 0px 150px;
+        /* max-width: 1000px; */
+}
+.img4{
+    border-radius: 8px;
+    position: relative;
+     bottom: 230px; 
+    left:500px; 
+}
+
+
+
+/* play game section styles end  */
+
+
+
+
+footer {
+    background: #0B0223;
+}
+
+.footer-title {
+    text-align: center;
+}
